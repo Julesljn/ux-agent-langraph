@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "content": "titre : Structure la navigation par priorité des tâches. / catégorie : Navigation & IA / Organisez le menu principal selon les tâches les plus fréquentes des utilisateurs pour réduire leur temps de recherche."
+  },
+  {
+    "id": 2,
+    "content": "titre : Utilise des libellés de menu explicites et concis. / catégorie : Navigation & IA / Évitez le jargon et préférez des mots que les utilisateurs comprendraient immédiatement."
+  },
+  {
+    "id": 3,
+    "content": "titre : Limite la profondeur de navigation à trois niveaux max. / catégorie : Navigation & IA / Au-delà, les utilisateurs se perdent et les moteurs de recherche indexent moins bien."
+  },
+  {
+    "id": 4,
+    "content": "titre : Fournis un fil d’Ariane sur chaque page. / catégorie : Navigation & IA / Il aide à comprendre la hiérarchie du site et à revenir en arrière rapidement."
+  },
+  {
+    "id": 5,
+    "content": "titre : Rends le logo cliquable vers l’accueil. / catégorie : Navigation & IA / C’est une convention d’usage que les utilisateurs attendent."
+  },
+  {
+    "id": 6,
+    "content": "titre : Affiche clairement l’état 'sélectionné’ dans les menus. / catégorie : Navigation & IA / Indique visuellement quelle section est active pour situer l’utilisateur."
+  },
+  {
+    "id": 7,
+    "content": "titre : Regroupe les éléments connexes dans des méga-menus. / catégorie : Navigation & IA / Les méga-menus évitent la surcharge des menus déroulants classiques quand il y a beaucoup de catégories."
+  },
+  {
+    "id": 8,
+    "content": "titre : Place la recherche en haut à droite ou en évidence. / catégorie : Navigation & IA / C’est l’endroit où les utilisateurs la cherchent le plus souvent."
+  },
+  {
+    "id": 9,
+    "content": "titre : Offre la complétion automatique dans la recherche. / catégorie : Navigation & IA / Suggérez des termes ou des produits pour accélérer la découverte."
+  },
+  {
+    "id": 10,
+    "content": "titre : Prévient les ruptures avec des liens 404 personnalisés. / catégorie : Navigation & IA / Proposez des liens utiles ou la recherche pour retenir l’utilisateur."
+  },
+  {
+    "id": 11,
+    "content": "titre : Maintiens la cohérence des menus sur toutes les pages. / catégorie : Navigation & IA / Un changement de position perturbe la mémoire spatiale des utilisateurs."
+  },
+  {
+    "id": 12,
+    "content": "titre : Permets un retour arrière sans perte de contexte. / catégorie : Navigation & IA / Utilisez l’historique et gardez les états de la page précédente."
+  },
+  {
+    "id": 13,
+    "content": "titre : Sur mobile, utilise une barre de navigation fixe inférieure. / catégorie : Navigation & IA / Elle est plus accessible au pouce qu’un burger menu en haut."
+  },
+  {
+    "id": 14,
+    "content": "titre : Évite les menus déroulants imbriqués sur mobile. / catégorie : Navigation & IA / Ils sont difficiles à fermer et provoquent des erreurs de toucher."
+  },
+  {
+    "id": 15,
+    "content": "titre : Garantis un contraste suffisant pour le texte de navigation. / catégorie : Navigation & IA / Un contraste insuffisant nuit à la lisibilité et à l’accessibilité."
+  },
+  {
+    "id": 16,
+    "content": "titre : Affiche le nombre de résultats à côté de chaque filtre. / catégorie : Filtres & Tri / Cela aide l’utilisateur à estimer l’impact de son choix."
+  },
+  {
+    "id": 17,
+    "content": "titre : Utilise des libellés compréhensibles par l’utilisateur. / catégorie : Filtres & Tri / Évitez les termes techniques ; utilisez la voix du client."
+  },
+  {
+    "id": 18,
+    "content": "titre : Permets la sélection multi-filtres sans rechargement. / catégorie : Filtres & Tri / Les filtres appliqués dynamiquement offrent un ressenti plus rapide."
+  },
+  {
+    "id": 19,
+    "content": "titre : Mémorise l’état des filtres lors d’un retour arrière. / catégorie : Filtres & Tri / Les utilisateurs ne devraient pas devoir recommencer."
+  },
+  {
+    "id": 20,
+    "content": "titre : Place les filtres les plus utilisés en premier. / catégorie : Filtres & Tri / Basez-vous sur les analytics pour ordonner les options."
+  },
+  {
+    "id": 21,
+    "content": "titre : Ajoute une option 'Tout effacer’. / catégorie : Filtres & Tri / Un moyen rapide de revenir à l’état initial."
+  },
+  {
+    "id": 22,
+    "content": "titre : Affiche les filtres actifs sous forme de badges. / catégorie : Filtres & Tri / Ainsi, ils sont faciles à voir et à retirer."
+  },
+  {
+    "id": 23,
+    "content": "titre : Offre un ordre de tri pertinent par défaut. / catégorie : Filtres & Tri / Ex. pertinence, popularité ou nouveauté selon le contexte."
+  },
+  {
+    "id": 24,
+    "content": "titre : Évite les filtres mutuellement exclusifs. / catégorie : Filtres & Tri / Faites-les soit exclusifs soit combinables selon la logique métier."
+  },
+  {
+    "id": 25,
+    "content": "titre : Propose un champ de recherche dans la liste de filtres longue. / catégorie : Filtres & Tri / Utile quand les valeurs sont nombreuses (p. ex. marques)."
+  },
+  {
+    "id": 26,
+    "content": "titre : Charge les résultats instantanément (loading progressif). / catégorie : Filtres & Tri / Montre le contenu disponible dès qu’il est prêt."
+  },
+  {
+    "id": 27,
+    "content": "titre : Persiste les filtres dans l’URL (partageable). / catégorie : Filtres & Tri / Permet de partager la recherche courante."
+  },
+  {
+    "id": 28,
+    "content": "titre : Sur mobile, masque les filtres dans un panneau coulissant. / catégorie : Filtres & Tri / Réduit l’encombrement visuel tout en restant accessible."
+  },
+  {
+    "id": 29,
+    "content": "titre : Indique visuellement le nombre de résultats mis à jour. / catégorie : Filtres & Tri / Met en évidence l’effet des filtres appliqués."
+  },
+  {
+    "id": 30,
+    "content": "titre : Évite de masquer des filtres après sélection. / catégorie : Filtres & Tri / Les utilisateurs doivent pouvoir ajuster leurs choix."
+  },
+  {
+    "id": 31,
+    "content": "titre : Demande uniquement les informations indispensables. / catégorie : Formulaires & Inscription / Réduire la charge cognitive augmente le taux de conversion."
+  },
+  {
+    "id": 32,
+    "content": "titre : Précise le format attendu dans le placeholder. / catégorie : Formulaires & Inscription / Exemple pour téléphone : '+33 6 12 34 56 78’."
+  },
+  {
+    "id": 33,
+    "content": "titre : Indique en temps réel les erreurs de saisie. / catégorie : Formulaires & Inscription / Les correctifs immédiats sont plus simples pour l’utilisateur."
+  },
+  {
+    "id": 34,
+    "content": "titre : Affiche un exemple pour guider la saisie. / catégorie : Formulaires & Inscription / Montre un format valide pour chaque champ spécifique."
+  },
+  {
+    "id": 35,
+    "content": "titre : Arrange les champs dans un ordre logique. / catégorie : Formulaires & Inscription / Ex : prénom avant nom, puis e-mail, etc."
+  },
+  {
+    "id": 36,
+    "content": "titre : Groupe les champs associés ensemble. / catégorie : Formulaires & Inscription / Par exemple, adresse et code postal dans un même bloc."
+  },
+  {
+    "id": 37,
+    "content": "titre : Utilise la validation dès que le champ perd le focus. / catégorie : Formulaires & Inscription / L’utilisateur n’attend pas la soumission pour connaître l’erreur."
+  },
+  {
+    "id": 38,
+    "content": "titre : Indique clairement les champs obligatoires avec *. / catégorie : Formulaires & Inscription / Et évitez de marquer chaque champ comme obligatoire."
+  },
+  {
+    "id": 39,
+    "content": "titre : Facilite l’auto-remplissage via l’attribut autocomplete. / catégorie : Formulaires & Inscription / Réduit les frappes manuelles sur mobile."
+  },
+  {
+    "id": 40,
+    "content": "titre : Permets la création de compte via OAuth. / catégorie : Formulaires & Inscription / Propose Google, Apple, Facebook pour réduire la friction."
+  },
+  {
+    "id": 41,
+    "content": "titre : Affiche une estimation du temps pour remplir le formulaire. / catégorie : Formulaires & Inscription / Améliore l’engagement en fixant les attentes."
+  },
+  {
+    "id": 42,
+    "content": "titre : Pour le mot de passe, montre un indicateur de robustesse. / catégorie : Formulaires & Inscription / Guide l’utilisateur vers un mot de passe sécurisé."
+  },
+  {
+    "id": 43,
+    "content": "titre : Autorise la visibilité du mot de passe via une icône œil. / catégorie : Formulaires & Inscription / Évite les erreurs de frappe."
+  },
+  {
+    "id": 44,
+    "content": "titre : Utilise des labels persistants, pas seulement des placeholders. / catégorie : Formulaires & Inscription / Pour maintenir le contexte après saisie."
+  },
+  {
+    "id": 45,
+    "content": "titre : Offre un bouton 'Utiliser la même adresse de livraison’. / catégorie : Formulaires & Inscription / Réduit la répétition d’information."
+  },
+  {
+    "id": 46,
+    "content": "titre : Gère la progression pour les formulaires multi-étapes. / catégorie : Formulaires & Inscription / Affiche l’étape courante et le total."
+  },
+  {
+    "id": 47,
+    "content": "titre : Sauvegarde automatique en cas d’interruption. / catégorie : Formulaires & Inscription / Préserve les données même si la connexion est perdue."
+  },
+  {
+    "id": 48,
+    "content": "titre : Affiche un message de confirmation clair après soumission. / catégorie : Formulaires & Inscription / Rassure l’utilisateur de la réussite."
+  },
+  {
+    "id": 49,
+    "content": "titre : Envoie un e-mail de bienvenue ou confirmation. / catégorie : Formulaires & Inscription / Confirme l’action et fournit une trace."
+  },
+  {
+    "id": 50,
+    "content": "titre : Indique le format de date via un date picker localisé. / catégorie : Formulaires & Inscription / Évite les ambiguïtés de format."
+  },
+  {
+    "id": 51,
+    "content": "titre : Utilise un clavier numérique pour les champs nombres sur mobile. / catégorie : Formulaires & Inscription / Ajoute inputmode=numeric pour simplicité."
+  },
+  {
+    "id": 52,
+    "content": "titre : Évite les captchas illisibles. / catégorie : Formulaires & Inscription / Préférez reCAPTCHA v3 ou solutions invisibles."
+  },
+  {
+    "id": 53,
+    "content": "titre : Permets de revenir en arrière sans perdre les données. / catégorie : Formulaires & Inscription / Utilise le stockage local ou session."
+  },
+  {
+    "id": 54,
+    "content": "titre : Ne bloque pas le copier-coller pour les champs e-mail/MDP. / catégorie : Formulaires & Inscription / Empêche la frustration inutile."
+  },
+  {
+    "id": 55,
+    "content": "titre : Rends l’erreur clairement visible et expliquée. / catégorie : Formulaires & Inscription / Indique la solution, pas seulement le problème."
+  },
+  {
+    "id": 56,
+    "content": "titre : Assure un ratio de contraste texte/fond ≥ 4.5:1. / catégorie : Accessibilité / Nécessaire pour la lisibilité des personnes malvoyantes."
+  },
+  {
+    "id": 57,
+    "content": "titre : Fournit un focus visible au clavier. / catégorie : Accessibilité / Pour indiquer la position aux utilisateurs sans souris."
+  },
+  {
+    "id": 58,
+    "content": "titre : Ordre de tabulation logique. / catégorie : Accessibilité / S’aligne sur la structure de la page."
+  },
+  {
+    "id": 59,
+    "content": "titre : Ajoute des alternatives textuelles aux images. / catégorie : Accessibilité / Permet la compréhension pour les lecteurs d’écran."
+  },
+  {
+    "id": 60,
+    "content": "titre : Utilise ARIA landmarks pour la sémantique. / catégorie : Accessibilité / Facilite la navigation assistive."
+  },
+  {
+    "id": 61,
+    "content": "titre : Garantit que tout est navigable sans souris. / catégorie : Accessibilité / Les utilisateurs à mobilité réduite dépendent du clavier."
+  },
+  {
+    "id": 62,
+    "content": "titre : Ne repose pas uniquement sur la couleur pour la signification. / catégorie : Accessibilité / Ajoutez une icône ou un texte secondaire."
+  },
+  {
+    "id": 63,
+    "content": "titre : Fournit des légendes pour les vidéos. / catégorie : Accessibilité / Accès pour sourds et malentendants."
+  },
+  {
+    "id": 64,
+    "content": "titre : Supporte le zoom 200 % sans perte de contenu. / catégorie : Accessibilité / Responsive et flexible."
+  },
+  {
+    "id": 65,
+    "content": "titre : Évite les contenus animés clignotants > 3 Hz. / catégorie : Accessibilité / Prévient les crises d’épilepsie."
+  },
+  {
+    "id": 66,
+    "content": "titre : Permets de mettre en pause les animations. / catégorie : Accessibilité / WCAG 2.2 AAA."
+  },
+  {
+    "id": 67,
+    "content": "titre : Utilise des titres de page descriptifs. / catégorie : Accessibilité / Pour situer rapidement le contenu."
+  },
+  {
+    "id": 68,
+    "content": "titre : Respecte la préférence système 'réduire les animations’. / catégorie : Accessibilité / Via media prefers-reduced-motion."
+  },
+  {
+    "id": 69,
+    "content": "titre : Fournit une version accessible des graphiques. / catégorie : Accessibilité / Sous forme de tableau ou description complète."
+  },
+  {
+    "id": 70,
+    "content": "titre : Annonce dynamiquement les changements de contenu. / catégorie : Accessibilité / Avec aria-live politeness."
+  },
+  {
+    "id": 71,
+    "content": "titre : Assure la compatibilité avec les lecteurs d’écran majeurs. / catégorie : Accessibilité / Testez NVDA, JAWS, VoiceOver."
+  },
+  {
+    "id": 72,
+    "content": "titre : Place les erreurs de formulaire dans un rôle=alert. / catégorie : Accessibilité / Annonce automatique à l’utilisateur."
+  },
+  {
+    "id": 73,
+    "content": "titre : Fournit un lien 'Aller au contenu principal’. / catégorie : Accessibilité / Skip link au début du DOM."
+  },
+  {
+    "id": 74,
+    "content": "titre : Offre des sous-titres et transcript pour l’audio. / catégorie : Accessibilité / Obligatoire pour la conformité WCAG AA."
+  },
+  {
+    "id": 75,
+    "content": "titre : Teste avec des dispositifs d’assistance réels. / catégorie : Accessibilité / Les outils automatiques ne suffisent pas."
+  },
+  {
+    "id": 76,
+    "content": "titre : Utilise un langage clair et sans jargon. / catégorie : Contenu & Microcopy / Adapte le niveau de vocabulaire à la cible."
+  },
+  {
+    "id": 77,
+    "content": "titre : Rédige des titres de pages orientés tâche. / catégorie : Contenu & Microcopy / Fait gagner du temps à l’utilisateur."
+  },
+  {
+    "id": 78,
+    "content": "titre : Place l’information essentielle en premier. / catégorie : Contenu & Microcopy / Méthode de la pyramide inversée."
+  },
+  {
+    "id": 79,
+    "content": "titre : Utilise la voix active plutôt que passive. / catégorie : Contenu & Microcopy / Donne plus de clarté et d’énergie."
+  },
+  {
+    "id": 80,
+    "content": "titre : Reste cohérent sur les termes. / catégorie : Contenu & Microcopy / Ne mélange pas 'panier’ et 'sac’."
+  },
+  {
+    "id": 81,
+    "content": "titre : Explique l’objectif d’un champ dans une aide contextuelle. / catégorie : Contenu & Microcopy / Par ex. 'Nous ne partagerons jamais votre e-mail.’"
+  },
+  {
+    "id": 82,
+    "content": "titre : Indique les conséquences d’une action irréversible. / catégorie : Contenu & Microcopy / Par ex. suppression sans retour."
+  },
+  {
+    "id": 83,
+    "content": "titre : Affiche des messages d’erreur utiles et empathiques. / catégorie : Contenu & Microcopy / Montrez comment résoudre l’erreur."
+  },
+  {
+    "id": 84,
+    "content": "titre : Utilise des CTA avec verbes d’action. / catégorie : Contenu & Microcopy / Par ex. 'Télécharger maintenant’."
+  },
+  {
+    "id": 85,
+    "content": "titre : Limite les phrases à 20 mots environ. / catégorie : Contenu & Microcopy / Facilite la lecture rapide."
+  },
+  {
+    "id": 86,
+    "content": "titre : Utilise des listes à puces pour la lisibilité. / catégorie : Contenu & Microcopy / Segmenter les idées clés."
+  },
+  {
+    "id": 87,
+    "content": "titre : Traduis les dates dans le format local. / catégorie : Contenu & Microcopy / Juin 30 2025 -> 30/06/2025 en France."
+  },
+  {
+    "id": 88,
+    "content": "titre : Évite les caps lock dans les textes. / catégorie : Contenu & Microcopy / Majuscules = cri."
+  },
+  {
+    "id": 89,
+    "content": "titre : Ajoute des micro-interactions textuelles. / catégorie : Contenu & Microcopy / Par ex. toast 'Enregistré !’."
+  },
+  {
+    "id": 90,
+    "content": "titre : Vérifie l’orthographe et la grammaire. / catégorie : Contenu & Microcopy / Professionnalisme et crédibilité."
+  },
+  {
+    "id": 91,
+    "content": "titre : Fournit une indication de chargement dès 500 ms de latence. / catégorie : Feedback & États Système / Une skeleton screen réduit la perception d’attente."
+  },
+  {
+    "id": 92,
+    "content": "titre : Affiche la progression pour les opérations longues. / catégorie : Feedback & États Système / Barre ou pourcentage encourage l’utilisateur à patienter."
+  },
+  {
+    "id": 93,
+    "content": "titre : Utilise un skeleton screen plutôt qu’un spinner long. / catégorie : Feedback & États Système / Crée l’illusion de vitesse et de stabilité."
+  },
+  {
+    "id": 94,
+    "content": "titre : Confirme la réussite d’une action critique. / catégorie : Feedback & États Système / Message ou toast vert indiquant succès."
+  },
+  {
+    "id": 95,
+    "content": "titre : Permets d’annuler les actions destructives. / catégorie : Feedback & États Système / Ajoutez un délai ou une option 'Undo’."
+  },
+  {
+    "id": 96,
+    "content": "titre : Affiche la dernière date de sauvegarde automatique. / catégorie : Feedback & États Système / Réassure l’utilisateur en cas de crash."
+  },
+  {
+    "id": 97,
+    "content": "titre : Signale la perte de connexion et relance automatique. / catégorie : Feedback & États Système / Maintient la confiance."
+  },
+  {
+    "id": 98,
+    "content": "titre : Utilise des couleurs et icônes standard pour les statuts. / catégorie : Feedback & États Système / Ex : vert = succès, rouge = erreur."
+  },
+  {
+    "id": 99,
+    "content": "titre : Redirige automatiquement après un délai raisonnable. / catégorie : Feedback & États Système / Ex : paiement réussi -> 3 s avant renvoi au résumé."
+  },
+  {
+    "id": 100,
+    "content": "titre : Préviens avant expiration de session. / catégorie : Feedback & États Système / Avertir 1-2 minutes avant."
+  },
+  {
+    "id": 101,
+    "content": "titre : Déclenche des notifications non intrusives. / catégorie : Feedback & États Système / Toast temporaire en bas de l’écran."
+  },
+  {
+    "id": 102,
+    "content": "titre : Différencie clairement les erreurs fatales des récupérables. / catégorie : Feedback & États Système / Guide l’utilisateur vers la solution."
+  },
+  {
+    "id": 103,
+    "content": "titre : Loggue les erreurs pour le support. / catégorie : Feedback & États Système / Diagnostic rapide pour l’équipe."
+  },
+  {
+    "id": 104,
+    "content": "titre : Donne un identifiant d’erreur unique. / catégorie : Feedback & États Système / Facilite la communication avec le support."
+  },
+  {
+    "id": 105,
+    "content": "titre : Fournit un mode hors-ligne quand possible. / catégorie : Feedback & États Système / Pré-charge les données critiques via PWA."
+  },
+  {
+    "id": 106,
+    "content": "titre : Charge les ressources critiques en priorité. / catégorie : Performance & Perception / Utilisez rel=preload pour CSS et polices."
+  },
+  {
+    "id": 107,
+    "content": "titre : Compresse les images avec des formats modernes. / catégorie : Performance & Perception / WebP, AVIF réduisent la taille sans perte visible."
+  },
+  {
+    "id": 108,
+    "content": "titre : Active la mise en cache HTTP adéquate. / catégorie : Performance & Perception / Cache-Control, ETag pour accélérer les visites ultérieures."
+  },
+  {
+    "id": 109,
+    "content": "titre : Utilise le lazy-loading pour les images hors écran. / catégorie : Performance & Perception / Attribut loading=lazy HTML natif."
+  },
+  {
+    "id": 110,
+    "content": "titre : Réduis le JavaScript non utilisé (tree-shaking). / catégorie : Performance & Perception / Diminue le temps d’évaluation et parsing."
+  },
+  {
+    "id": 111,
+    "content": "titre : Minimise les requêtes serveur. / catégorie : Performance & Perception / Concaténer les fichiers et sprites d’icônes."
+  },
+  {
+    "id": 112,
+    "content": "titre : Utilise un CDN pour les assets statiques. / catégorie : Performance & Perception / Réduit la latence géographique."
+  },
+  {
+    "id": 113,
+    "content": "titre : Cible < 100 ms Time To First Byte. / catégorie : Performance & Perception / Meilleure perception de vitesse."
+  },
+  {
+    "id": 114,
+    "content": "titre : Pré-remplis les placeholders pour le contenu dynamique. / catégorie : Performance & Perception / Crée la structure avant l’arrivée des données."
+  },
+  {
+    "id": 115,
+    "content": "titre : Fournis un retour perceptif < 100 ms pour les interactions. / catégorie : Performance & Perception / D’après les recherches de Nielsen."
+  },
+  {
+    "id": 116,
+    "content": "titre : Conçois d’abord pour la largeur 360 px. / catégorie : Mobile & Responsive / L’approche mobile-first garantit la compatibilité."
+  },
+  {
+    "id": 117,
+    "content": "titre : Utilise des unités relatives (rem, %). / catégorie : Mobile & Responsive / Assure l’adaptation à toutes les tailles d’écran."
+  },
+  {
+    "id": 118,
+    "content": "titre : Prévois des zones tactiles ≥ 48×48 px. / catégorie : Mobile & Responsive / Recommandation Google pour éviter les erreurs de touch."
+  },
+  {
+    "id": 119,
+    "content": "titre : Évite les interactions basées sur le survol. / catégorie : Mobile & Responsive / Le hover n’existe pas sur mobile."
+  },
+  {
+    "id": 120,
+    "content": "titre : Offre le mode sombre si possible. / catégorie : Mobile & Responsive / Respecte la préférence utilisateur et économise la batterie."
+  },
+  {
+    "id": 121,
+    "content": "titre : Verrouille l’orientation pour les étapes critiques. / catégorie : Mobile & Responsive / Évite les interruptions lors du paiement."
+  },
+  {
+    "id": 122,
+    "content": "titre : Utilise des images responsive (srcset). / catégorie : Mobile & Responsive / Charge des images adaptées à la résolution."
+  },
+  {
+    "id": 123,
+    "content": "titre : Place les actions principales à portée de pouce. / catégorie : Mobile & Responsive / En bas de l’écran ou zone latérale accessible."
+  },
+  {
+    "id": 124,
+    "content": "titre : Masque la navigation secondaire dans un drawer. / catégorie : Mobile & Responsive / Libère de l’espace pour le contenu principal."
+  },
+  {
+    "id": 125,
+    "content": "titre : Limite les pop-ups plein écran. / catégorie : Mobile & Responsive / Irritants sur mobile et pénalisés par Google."
+  },
+  {
+    "id": 126,
+    "content": "titre : Garde le texte lisible sans zoom. / catégorie : Mobile & Responsive / Font-size minimum 16 px sur iOS et Android."
+  },
+  {
+    "id": 127,
+    "content": "titre : Détecte et gère le clavier virtuel (viewport). / catégorie : Mobile & Responsive / Évite le 'jumping’ de champ."
+  },
+  {
+    "id": 128,
+    "content": "titre : Utilise des composants natifs quand possible. / catégorie : Mobile & Responsive / Pickers système = UX familière et fiable."
+  },
+  {
+    "id": 129,
+    "content": "titre : Autorise le paiement par wallet mobile. / catégorie : Mobile & Responsive / Apple Pay, Google Pay réduisent la friction."
+  },
+  {
+    "id": 130,
+    "content": "titre : Teste sur des appareils réels et émulateurs. / catégorie : Mobile & Responsive / Vérifie comportements, performances et gestes."
+  },
+  {
+    "id": 131,
+    "content": "titre : Applique une grille 8-pt pour la cohérence. / catégorie : Visuel & Hiérarchie / Structure les espacements et tailles."
+  },
+  {
+    "id": 132,
+    "content": "titre : Limite la palette de couleurs à 3-4 principales. / catégorie : Visuel & Hiérarchie / Favorise la cohérence visuelle."
+  },
+  {
+    "id": 133,
+    "content": "titre : Utilise la théorie des contrastes pour la hiérarchie. / catégorie : Visuel & Hiérarchie / Focalise l’attention sur les éléments clés."
+  },
+  {
+    "id": 134,
+    "content": "titre : Maintiens un ratio d’espace blanc suffisant. / catégorie : Visuel & Hiérarchie / Donne de l’air et évite la surcharge."
+  },
+  {
+    "id": 135,
+    "content": "titre : Harmonise les icônes (style, épaisseur). / catégorie : Visuel & Hiérarchie / Cohérence entre toutes les pictogrammes."
+  },
+  {
+    "id": 136,
+    "content": "titre : Utilise des tailles de police graduelles. / catégorie : Visuel & Hiérarchie / Golden Ratio ou Type Scale 1.25."
+  },
+  {
+    "id": 137,
+    "content": "titre : Ancre visuellement les éléments alignés à gauche. / catégorie : Visuel & Hiérarchie / Facilite la lecture en F-pattern."
+  },
+  {
+    "id": 138,
+    "content": "titre : Crée un contraste de taille pour les CTA. / catégorie : Visuel & Hiérarchie / CTA principal plus grand et coloré."
+  },
+  {
+    "id": 139,
+    "content": "titre : Évite le texte justifié sur le web. / catégorie : Visuel & Hiérarchie / Crée des rivières blanches et diminue la lisibilité."
+  },
+  {
+    "id": 140,
+    "content": "titre : Utilise des images pertinentes, pas seulement décoratives. / catégorie : Visuel & Hiérarchie / Chaque visuel doit soutenir le message."
+  },
+  {
+    "id": 141,
+    "content": "titre : Vérifie la lisibilité sur fond d’image. / catégorie : Visuel & Hiérarchie / Ajoute un overlay sombre au besoin."
+  },
+  {
+    "id": 142,
+    "content": "titre : Respecte la règle des 8–12 mots par ligne sur mobile. / catégorie : Visuel & Hiérarchie / Optimise la lecture."
+  },
+  {
+    "id": 143,
+    "content": "titre : Limite chaque écran à un objectif principal. / catégorie : Visuel & Hiérarchie / Évite la surcharge cognitive."
+  },
+  {
+    "id": 144,
+    "content": "titre : Fournis un état de focus/hover/active pour les boutons. / catégorie : Visuel & Hiérarchie / Rétroaction immédiate."
+  },
+  {
+    "id": 145,
+    "content": "titre : Teste la maquette avec des tests 5-secondes. / catégorie : Visuel & Hiérarchie / Évalue la perception rapide de la hiérarchie."
+  },
+  {
+    "id": 146,
+    "content": "titre : Fournis un tutoriel interactif au premier lancement. / catégorie : Onboarding & Apprentissage / Présente les fonctionnalités clés sans surcharger."
+  },
+  {
+    "id": 147,
+    "content": "titre : Permets de passer et revenir au tutoriel plus tard. / catégorie : Onboarding & Apprentissage / Respecte l’autonomie de l’utilisateur."
+  },
+  {
+    "id": 148,
+    "content": "titre : Utilise des tooltips ponctuels plutôt qu’un long guide. / catégorie : Onboarding & Apprentissage / Apprentissage contextuel just-in-time."
+  },
+  {
+    "id": 149,
+    "content": "titre : Dévoile les fonctionnalités avancées progressivement. / catégorie : Onboarding & Apprentissage / Progressive disclosure pour éviter l’effet d’inondation."
+  },
+  {
+    "id": 150,
+    "content": "titre : Évalue la compréhension via de micro-tâches. / catégorie : Onboarding & Apprentissage / Confirme que l’utilisateur sait quoi faire."
+  }
+]
